@@ -22,6 +22,9 @@ int print_sign(int n);
 /* Prototype of int _abs(int) */
 int _abs(int);
 
-/* Prototype of print(last_digit(int) */
+/* Prototype of int print(last_digit(int) */
 int print_last_digit(int);
+
+/* Prototype of jack_bauer(void) */
+void jack_bauer(void);
 #endif
