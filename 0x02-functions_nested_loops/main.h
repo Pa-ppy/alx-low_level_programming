@@ -6,4 +6,7 @@ int _putchar(char a);
 
 /* Prototype of print_alphabet function */
 void print_alphabet(void);
+
+/* Prototype of print_alphabet_x10 function */
+void print_alphabet_x10(void);
 #endif
