@@ -12,4 +12,7 @@ void print_alphabet_x10(void);
 
 /* Prototype of int _islower(int c) */
 int _islower(int c);
+
+/* Prototype of int _isalpha(int c) */
+int _isalpha(int c);
 #endif
