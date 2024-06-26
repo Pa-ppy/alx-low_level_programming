@@ -3,9 +3,8 @@
 /**
  * jack_bauer - Prints time in two digits including zeros
  *
- * @num: The time to print
  */
- void jack_bauer(void)
+void jack_bauer(void)
 {
 	int hour, minute;
 
