@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - Prints multiples of 3, of 5, of 3 and 5 with Fizz, Buzz, FizzBuzz
  *
  * Return: Always 0 (success)
  *
