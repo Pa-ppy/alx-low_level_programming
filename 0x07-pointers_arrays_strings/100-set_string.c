@@ -7,11 +7,12 @@
  */
 void set_string(char **s, char *to)
 {
-	char buffer[100];
+	char buffer[BUFFER_SIZE];
 	int i;
 
-	for (i = 0; i < 100 && to[i] != '\0'; i++)
+	for (i = 0; i < BUFFER_SIZE - 1 && to[i] != '\0'; i++)
 		buffer[i] = to[i];
 	buffer[i] = '\0';
+
 	*s = buffer;
 }
