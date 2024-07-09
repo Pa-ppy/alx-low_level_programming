@@ -9,15 +9,14 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
+	char *a;
+
 	while (*s != '\0')
 	{
-		char *a = accept;
-
-		while (*a != '\0')
+		for (a = accept; *a != '\0'; a++)
 		{
-			if (*s == '\0')
+			if (*s == *a)
 				return (s);
-			a++;
 		}
 		s++;
 	}
