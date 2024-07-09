@@ -13,7 +13,7 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 	{
-		primary_sum == a[i * size + i];
+		primary_sum += a[i * size + i];
 		secondary_sum += a[i * size + (size - 1 - i)];
 	}
 	printf("%d, %d\n", primary_sum, secondary_sum);
