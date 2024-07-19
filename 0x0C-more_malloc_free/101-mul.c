@@ -29,7 +29,7 @@ int is_digit(char *str)
 }
 
 /**
- * _calloc - Allocates memory for an array 
+ * _calloc - Allocates memory for an array
  * @nmemb: The number of elements in the array
  * @size: Size of each element
  *
