@@ -4,6 +4,7 @@
 
 /**
  * new_dog - Creates a new dog
+ * dog_t - Type struct
  * @name: Pointer to the dog's name
  * @age: Dog's age
  * @owner: Pointer to the dog's owner
