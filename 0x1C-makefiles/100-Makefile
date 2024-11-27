@@ -7,8 +7,11 @@ RM := rm -f
 all: $(NAME)
 
 $(NAME):
-	$(CC) $(CFLAGS) -c main.c school.c
+	$(CC) -c $(SRC)
 	$(CC) main.o school.o -o $(NAME)
+
+main.o: main.c m.h
+school.o: school.c m.h
 
 clean:
 	$(RM) *~
@@ -16,10 +19,7 @@ clean:
 oclean:
 	$(RM) main.o school.o
 
-fclean: clean oclean
+fclean: clean
 	$(RM) $(NAME)
 
 re: fclean all
-
-main.o: main.c m.h
-school.o: school.c m.h
